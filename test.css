@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.container {
+
+}
+
+.main-header {
+    padding: 20px;
+    text-align: center;
+    background-image: url(/affinity_street_romain_trystram_01.webp);
+    border-radius: 1.5px;
+
+    background-size: cover;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, .9);
+}
+
+
+.main-logo {
+   color: white;
+   text-shadow: .5px 1px 1px whitesmoke;
+
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    color: rgba(233, 233, 233, .8);
+    text-decoration: none;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 9px;
+}
+
+.nav ul li a:hover {
+    color: #fffdfd;
+    text-shadow: .5px 1px 1px rgba(255, 255, 255, .9);
+    transition-delay: 45ms;
+}
+
+.content-section {
+
+}
+
+
+.main-article {
+   
+}
+
+.article-header {
+
+}
+
+.article-section {
+    background-image: url(/affinity_street_romain_trystram_02.webp);
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, .9);
+    border-radius: 1.5px;
+    color: white;
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    padding: 15px; 
+
+}
+
+.article-section:hover {
+    text-shadow: .3px .3px .4px rgba(255, 255, 255, .9);
+
+}
+
+/* Clear floats after the columns */
+/* .side-content:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  
+
+.side-content {
+    width: 65%;
+    position: relative;
+    float: right;
+    
+}
+
+.side-section { 
+    background-image: url(/abstractbg12.jpg);
+    background-size: cover;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.9);
+    text-shadow: .3px .3px .4px rgba(0, 0, 0, 1);
+    color: rgb(226, 226, 226);
+    padding: 15px;  
+}
+
+.side-section p:hover {
+    text-shadow: .3px .3px .4px rgb(255, 255, 255);
+    transition-delay: 110ms;
+
+}
+
+.side-section p:hover {
+    opacity: .2;
+    transition-delay: 110ms;
+
+}
+
+
+.form-container {
+    text-align: center;
+    clear: both;
+}
+
+.form {
+    text-align: center;
+}
+
+.button {
+
+}
+
+.main-footer {
+    clear: both;
+} 
+
+.logo {
+
+}
