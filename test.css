@@ -16,7 +16,7 @@
 .main-header {
     padding: 20px;
     text-align: center;
-    background-image: url(/affinity_street_romain_trystram_01.webp);
+    background-image: url(./affinity_street_romain_trystram_01.webp);
     border-radius: 1.5px;
 
     background-size: cover;
@@ -67,7 +67,7 @@
 }
 
 .article-section {
-    background-image: url(/affinity_street_romain_trystram_02.webp);
+    background-image: url(./affinity_street_romain_trystram_02.webp);
     box-shadow: 2px 3px 3px rgba(0, 0, 0, .9);
     border-radius: 1.5px;
     color: white;
@@ -99,7 +99,7 @@
 }
 
 .side-section { 
-    background-image: url(/abstractbg12.jpg);
+    background-image: url(./abstractbg12.jpg);
     background-size: cover;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.9);
     text-shadow: .3px .3px .4px rgba(0, 0, 0, 1);
